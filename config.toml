@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://neurocodemonkey.github.io"
+baseURL = "https://neurocodemonkey.github.io/"
 languageCode = "en"
 title = "LNC Resume"
 theme = "hugo-devresume-theme"
