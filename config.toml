@@ -6,6 +6,11 @@ title = "LNC Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
 
 [params]
     author = "CowboySmall"
