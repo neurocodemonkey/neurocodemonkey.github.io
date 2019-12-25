@@ -1,0 +1,266 @@
+# Page settings
+
+baseURL = "http://neurocodemonkey.github.io"
+languageCode = "en"
+title = "LNC Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#69437a"
+    textPrimaryColor = "#292929"
+
+
+
+    [params.profile]
+        enable = true
+        name = "Lisa N. Cao"
+        tagline = "BiocTools Head Developer"
+        #avatar = "lisancao.jpg"
+
+
+    [params.contact]
+        enable = true
+        location = "Vancouver, CA"
+        
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+1 778 999 4798"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "lisanatashacao@gmail.com"
+        #[[params.contact.list]]
+        #icon = "fas fa-globe"
+        #url = "#lisancao.github.io"
+        #text = "lisancao.github.io"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#lisancao.github.io"
+        text = "lisancao.github.io"
+        [[params.contact.list]]
+        icon = "fab fa-twitter-square"
+        url = "#twitter.com/lisancao"
+        text = "@lisancao"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "R"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Bash"
+        [[params.skills.list.items]]
+        details = "System Administration"
+        [[params.skills.list]]
+        title = "Operating Systems"
+        [[params.skills.list.items]]
+        details = "Ubuntu/Linux"
+        [[params.skills.list.items]]
+        details = "Windows 7/8/10+"
+
+        [[params.skills.list]]
+        title = "Other Strengths"
+        [[params.skills.list.items]]
+        details = "Documentation"
+        [[params.skills.list.items]]
+        details = "Version Control"
+        [[params.skills.list.items]]
+        details = "Workflow Design"
+        [[params.skills.list.items]]
+        details = "Communication"
+        [[params.skills.list.items]]
+        details = "Project Management"
+        [[params.skills.list.items]]
+        details = "Team Building"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Psychology, Bachelor of Arts"
+        university = "Simon Fraser University"
+        dates = "2012 - Present"
+
+        [[params.education.list]]
+        degree = "Dogwood Diploma, IB Certificate"
+        university = "Britannia Secondary School"
+        dates = "2007 - 2012"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "PyLadies Diversity Scholarship"
+        body = "Open Source Summit North America"
+        date = "2018"
+        [[params.awards.list]]
+        name = "BC District Award"
+        body = "Vancouver School District"
+        date = "2012"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+        [[params.languages.list]]
+        name = "Vietnamese"
+        level = "Novice"
+        
+        [[params.languages.list]]
+        name = "Khuzdul"
+        level = "Enough to get by"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Open Source Technology"
+        [[params.interests.list]]
+        name = "Science Fiction/Futurism"
+        [[params.interests.list]]
+        name = "News/Social Commentary"
+        [[params.interests.list]]
+        name = "Attempting Work/Life Balance"
+
+
+
+    [params.summary]
+        enable = true
+        text = "I use R, Bash, and Python to build open source tools for bioinformaticians and behavioural neuroscientists. My most recent and notable achievement includes leading the winning team at Hackseq'19 with my project BiocSwirl, which I continue to develop under the BiocTools name. My community work includes organizing RLadies Vancouver and sitting as the current Chair for the Vancouver Datajam, as well as running workshops with the SFU Scientific Programming Group. To see my full work history see https://www.linkedin.com/in/lisancao/. View my CV at: http://bit.do/lnc-cv"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Workshop Facilitator"
+        dates = "2018 - Present"
+        company = "SFU Scientific Programming Group"
+        details = "I teach workshops about R and Bioinformatics, each around 1.5hrs in length and a mix of lecture and tutorial portions that I lead. I have also taught workshops with other organizations- all materials are available on github. My workshops up to date include:"
+        [[params.experience.list.items]]
+        details = "Introduction to Bioinformatics with R"
+        [[params.experience.list.items]]
+        details = "Heatmaps in R"
+        [[params.experience.list.items]]
+        details = "Creating a Resume/CV with Vitae in R"
+
+        [[params.experience.list]]
+        title = "Research Assistant"
+        dates = "2016 - Present"
+        company = "Sleep and Circadian Neuroscience Lab, SFU"
+        details = "Led by **Dr. Ralph Mistlberger.** during my time here, I obtained CCAC certification in Animal Lab Training for mice and rats in vivaria and general laboratory safety training offered by SFU. I helped out extensively with many interdisciplinary research projects which helped foster my current interest in circadian-omics and neuroinformatics. These projects also introduced me to advanced technologies such as the LumiCycle." 
+        [[params.experience.list.items]]
+        details = "***Data Analysis.*** Wrote R code for data prep, statistical analyses (linear mixed modelling & basic linear models), & visualization of time series datasets on a Mitacs-funded project, in collaboration with BC Hydro, with a tight deadline under challenging circumstances"
+        [[params.experience.list.items]]
+        details = "***Behavioural Research Methods.*** conducted behavioural research protocols on rats and mice, performed animal husbandry, basic health checks and time-sensitive circadian feeding protocols"
+        [[params.experience.list.items]]
+        details = "***Laboratory Skills:*** (on mice and rats) Cresyl Violet staining, brain sectioning using cryostat and vibratome on both perfused and unperfused tissue, euthanization using CO2 gas and decapitation, paraformaldehyde perfusions, brain extraction and tissue sampling (namely optic tract/suprachiasmatic nucleus, olfactory bulbs, hippocampus), microscopic and freehand dissections, peripheral tissue dissection and extraction, intraperitoneal and subcutaneous injections, surgery set up and preparation of various solutions, basic lab housekeeping duties such as cleaning"
+
+        [[params.experience.list]]
+        title = "Research Assistant"
+        dates = "2014 - Present"
+        company = "Behavioural Endocrinology Lab, SFU"
+        details = "Led by **Dr. Neil V. Watson.** I began in this lab conducting behavioural protocols on human participants and collecting specimen samples, to eventually becoming understudy to the lab manager and helping out with basic lab tech duties, such as running salivary ELISA kits. After transitioning to more of a dry lab role my focus is to update the lab's statistical analyses by helping our graduate students migrate to R."
+        [[params.experience.list.items]]
+        details = "***Data Analysis.*** Currently working to develop a completely reproducible workflow in a simply R package that includes Qualtrics survey porting, variable coding, statistical analyses, and visualization."
+        [[params.experience.list.items]]
+        details = "***Behavioural Research Methods.*** Administered questionnaires, oversaw computer/cognitive tasks and proper consent/debrief in accordance with university ethics requirements, performed necessary deception with confederates, collected passive drool from participants, data entry"
+        [[params.experience.list.items]]
+        details = "***Laboratory Skills:*** Pipette assessments and calibration, ran ELISA hormonal immunoassays (Cortisol/Testosterone), restocked supplies, basic lab housekeeping duties, transported/stored temperature-sensitive samples, conducted literature synthesis for the development of a new hormone protocol, plate reader maintenance"
+
+        
+        [[params.experience.list]]
+        title = "Co-Investigator"
+        dates = "2016"
+        company = "Vancouver Women's Health Collective"
+        details = "I helped with an internal research project funded by the Canadian Women's Foundation and the Coady Institute. This project aimed to gather and analyze qualitative data and draw conclusions for the VWHC in terms of the best, most effective role the centre could play in the DTES."
+        [[params.experience.list.items]]
+        details = "***Behavioural Research Methods.*** Sought out participants, scheduled and conducted interviews and follow-ups, transcribed 1-2hr interviews, conducted literature searches and wrote several sections in the paper, provided expertise on: non-profit funding, biopsychosocial correlates of health, low socioeconomic status and health, and women's health issues"
+        [[params.experience.list.items]]
+        details = "*(Not peer reviewed)* Bhandal T, Joly FE, Cao, L. (2016). Women’s health, wellness, and equity in Vancouver and the Downtown Eastside: an environmental scan for decision-makers. (Vancouver, BC: Vancouver Women’s Health Collective)."
+  
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "BiocSwirl"
+        meta = "Open Source"
+        tagline = "A series of in-depth and easily updateable swirlify made courses used to teach entire bioinformatics workflows in R/Bioconductor using an interactive and easy to digest format. This project was the People's Choice Award for the Vancouver Bioinformatics Hackathon Hackseq2019."
+
+        [[params.projects.list]]
+        title = "BiocTerm"
+        meta = "Open Source"
+        tagline = "A highly configurable, lightweight and feature rich terminal interface with multi-language support for conducting bioinformatics. BiocTerm currently supports R, Bash, Python, and Vim. This project was the People's Choice Award for the Vancouver Bioinformatics Hackathon Hackseq2019."
+
+       [[params.projects.list]]
+       title = "behavendoR (early stages)"
+       meta = "Open Source"
+       tagline = "A basic R package used to introduce statistical workflows and reproducibility into the Watson lab and Behavioural Endocrinology field, has basic features and functions that make using R easier for behavioural endocrinologists."
+       
+     #  [[params.projects.list]]
+      # title = "circanalyze (early stages)"
+       #meta = "Closed Source"
+       #tagline = "A Bioconductor workflow for the analysis of circadian RNA and chIP-seq neuronal cell data." 
+
+
+
+    [params.information]
+        enable = true
+        
+        [[params.information.list]]
+        title = "Community Involvement"
+        [[params.information.list.items]]
+        details = "**Vancouver Datajam (Chair, Founder)** · The Vancouver Datajam is a grassroots data science hackathon that emphasizes accessibility and inclusivity. It is the largest collaboration of the women's coding meetup groups in the lower mainland. Our next hack partners with marine life authorities to bridge data and daily life."
+        [[params.information.list.items]]
+        details = "**RLadies Vancouver (Organizer)** · Our focus at RLadies is to cultivate an environment where gender and racial minorities can build their R skills starting at any level with a community that is encouraging and nonjudgemental. Our meetings involve invited speakers, workshops, and community building events."
+        
+        
+        [[params.information.list]]
+        title = "Invited Talks"
+        [[params.information.list.items]]
+        details = "2018 · Open Source in (Neuro)Science, PyLadies Talk Night."
+        [[params.information.list.items]]
+        details = "*References available upon request.*"
+          
+#        [[params.information.list]]
+ #       title = "Organizations"
+  #      details = "Vancouver Datajam (Chair) │ Rladies Vancouver (Organizer) │ SFU Scientific Programming (Workshop Facillitator) │ Pyladies Vancouver (Active Member) │ CAN-ACN (Active Member)"
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "github.com/lisancao"
+        title = "lisancao"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "linkedin.com/in/lisancao"
+        title = "lisancao"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "twitter.com/lisancao"
+        title = "@lisancao"
+
+
+
+
+
